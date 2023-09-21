@@ -1,0 +1,32 @@
+.Preto{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.Azul{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.fundo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.square:nth-child(even) {
+    background-color: #ccc;
+}
+
+.peca{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.B-piece {
+    color: #fff;
+}
+
+.P-piece {
+    color: #000;
+}

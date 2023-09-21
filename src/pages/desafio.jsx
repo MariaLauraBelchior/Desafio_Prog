@@ -1,69 +1,93 @@
-export default function Desafio(){
+import style from '@/styles/xadrex.module.css'
+import desafio from '@/pages/desafio'
+export default function Quadrados(){
     return(
-        <div className="Desafio">
-        <div className="square">
-            <span className="piece white-piece">R</span>
+    <div>
+        <h1>Tabuleiro de Xadrez</h1>
+        <div className={style.fundo}>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+
         </div>
-        <div className="square">
-            <span className="piece white-piece">N</span>
+        <div className={style.fundo}>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
         </div>
-        <div className="square">
-            <span className="piece white-piece">B</span>
+        <div className={style.fundo}>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
         </div>
-        <div className="square">
-            <span className="piece white-piece">Q</span>
+        <div className={style.fundo}>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>        
         </div>
-        <div className="square">
-            <span className="piece white-piece">K</span>
+        <div className={style.fundo}>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div> 
+        <div className={style.Azul}></div>       
         </div>
-        <div className="square">
-            <span className="piece white-piece">B</span>
+        <div className={style.fundo}>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div> 
+        <div className={style.Azul}></div>  
+        <div className={style.Preto}></div>     
         </div>
-        <div className="square">
-            <span className="piece white-piece">N</span>
+        <div className={style.fundo}>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div> 
+        <div className={style.Azul}></div>  
+        <div className={style.Preto}></div>    
+        <div className={style.Azul}></div> 
         </div>
-        <div className="square">
-            <span className="piece white-piece">R</span>
+        <div className={style.fundo}>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div>
+        <div className={style.Azul}></div>
+        <div className={style.Preto}></div> 
+        <div className={style.Azul}></div>  
+        <div className={style.Preto}></div>    
+        <div className={style.Azul}></div> 
+        <div className={style.Preto}></div>
         </div>
         
-    
-        <div className="square">
-            <span className="piece white-piece">P</span>
-        </div>
-        <div className="square">
-            <span className="piece white-piece">P</span>
-        </div>
+    </div>
 
-        <div className="square">
-            <span className="piece black-piece">r</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">n</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">b</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">q</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">k</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">b</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">n</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">r</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">p</span>
-        </div>
-        <div className="square">
-            <span className="piece black-piece">p</span>
-        </div>
-        </div>
-    )
-}
+    )  
+
+} 
